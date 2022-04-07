@@ -1,0 +1,21 @@
+{
+	"name": "Etiraf Bot",
+	"description": "@Sirvhan Tərəfindən kodlanan etiraf botu",
+	"repository": "https://github.com/Goqerti/Etiraf",
+	"env": {
+		"BOT_TOKEN": {
+			"description": "@BotFather dan alınan Bot Token girin."
+		},
+		"API_ID": {
+			"description": "Sizin APİ İD"
+		},
+		"API_HASH": {
+			"description": "Sizin Api Hash"
+		}
+	},
+	"buildpacks": [
+		{
+			"url": "heroku/python"
+		}
+	]
+}
