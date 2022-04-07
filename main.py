@@ -26,7 +26,7 @@ PM = 1342133634
 	& filters.private
 	)
 async def start(client: IT, message: Message):
-	await message.reply_text(f"<b> {message.from_user.mention} Hoş Geldim🥰,Ben @yusiqo Tarafından Kodlanan Bir İtiraf Botuyum \nEtiraflarınız @İtirafHanem Kanalında Paylaşılacaktır🤓.\n\n\nAnonim İtiraf: /ano mesaj\nAçık İtiraf: /itiraf mesaj</b>")
+	await message.reply_text(f"<b> {message.from_user.mention} Hoş Geldim🥰,Ben @yusiqo Tarafından Kodlanan Bir İtiraf Botuyum \nEtiraflarınız @itirafHanem Kanalında Paylaşılacaktır🤓.\n\n\nAnonim İtiraf: /ano mesaj\nAçık İtiraf: /itiraf mesaj</b>")
 
 @IT.on_message(
 	filters.command("ano") 
